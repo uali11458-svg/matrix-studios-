@@ -54,18 +54,27 @@
       "@id": "https://matrix-studios.vercel.app/#website",
       "url": "https://matrix-studios.vercel.app/",
       "name": "Matrix Studios",
-      "alternateName": ["Matrix Studios by Ali Akbar", "MatrixStudios"],
+      "alternateName": [
+        "Matrix Studios by Ali Akbar",
+        "MatrixStudios"
+      ],
       "description": "Full-stack web development studio by Ali Akbar.",
       "inLanguage": "en",
-      "publisher": { "@id": "https://matrix-studios.vercel.app/#organization" }
+      "publisher": {
+        "@id": "https://matrix-studios.vercel.app/#organization"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://matrix-studios.vercel.app/#webpage",
       "url": "https://matrix-studios.vercel.app/",
       "name": "Matrix Studios by Ali Akbar — Full-Stack Development",
-      "isPartOf": { "@id": "https://matrix-studios.vercel.app/#website" },
-      "about": { "@id": "https://matrix-studios.vercel.app/#organization" },
+      "isPartOf": {
+        "@id": "https://matrix-studios.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://matrix-studios.vercel.app/#organization"
+      },
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://matrix-studios.vercel.app/og-image.png",
@@ -78,7 +87,10 @@
       "@type": "Organization",
       "@id": "https://matrix-studios.vercel.app/#organization",
       "name": "Matrix Studios",
-      "alternateName": ["Matrix Studios by Ali Akbar", "MatrixStudios"],
+      "alternateName": [
+        "Matrix Studios by Ali Akbar",
+        "MatrixStudios"
+      ],
       "url": "https://matrix-studios.vercel.app/",
       "logo": {
         "@type": "ImageObject",
@@ -90,11 +102,22 @@
       "description": "Matrix Studios by Ali Akbar is a full-stack development studio building web products, tools, and automation end to end.",
       "email": "matrixstudios27@gmail.com",
       "telephone": "+92-302-2607339",
-      "founder": { "@id": "https://matrix-studios.vercel.app/#person" },
+      "founder": {
+        "@id": "https://matrix-studios.vercel.app/#person"
+      },
       "sameAs": [
         "https://www.linkedin.com/in/matrix-studios-388972412",
         "https://www.tiktok.com/@matrix__studios",
         "https://www.youtube.com/@MatrixStudioss"
+      ],
+      "knowsAbout": [
+        "Full-stack web development",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Web application development",
+        "Business automation",
+        "Brand and logo design"
       ]
     },
     {
@@ -103,7 +126,105 @@
       "name": "Ali Akbar",
       "jobTitle": "Founder & CEO",
       "url": "https://matrix-studios.vercel.app/",
-      "worksFor": { "@id": "https://matrix-studios.vercel.app/#organization" }
+      "worksFor": {
+        "@id": "https://matrix-studios.vercel.app/#organization"
+      },
+      "knowsAbout": [
+        "Full-stack web development",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Web application development",
+        "Business automation",
+        "Brand and logo design"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://matrix-studios.vercel.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Matrix Studios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matrix Studios is a full-stack development studio run by Ali Akbar. It designs and builds web products, tools and automation end to end: database, backend, interface and deployment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the founder and CEO of Matrix Studios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ali Akbar is the founder and CEO of Matrix Studios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What services does Matrix Studios offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full-stack web development (React / Next.js with Node or Python backends), tools and automation such as dashboards, integrations and data pipelines, and visual and brand design such as logos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What has Matrix Studios built?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DFS — Duty Free Shop, an open online marketplace for Pakistan (dfspk.com), and The Spring School System, a school management workspace (the-spring-school.vercel.app)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I hire Matrix Studios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email matrixstudios27@gmail.com or call +92 302 2607339. Matrix Studios is also on LinkedIn, TikTok and YouTube."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I explore the work in 3D?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Use the Enter 3D Portfolio button to walk through a calm 3D island with a gate for each project."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://matrix-studios.vercel.app/#work",
+      "name": "Selected work by Matrix Studios",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebSite",
+            "name": "DFS — Duty Free Shop",
+            "url": "https://dfspk.com/",
+            "description": "An open online marketplace for Pakistan.",
+            "creator": {
+              "@id": "https://matrix-studios.vercel.app/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebSite",
+            "name": "The Spring School System",
+            "url": "https://the-spring-school.vercel.app/",
+            "description": "A campus management workspace for schools.",
+            "creator": {
+              "@id": "https://matrix-studios.vercel.app/#organization"
+            }
+          }
+        }
+      ]
     }
   ]
 }
@@ -359,6 +480,35 @@
   footer .fbrand{display:flex;align-items:center;gap:10px;}
   footer .fbrand img{width:24px;height:24px;border-radius:50%;object-fit:cover;border:1.2px solid rgba(242,241,237,.9);}
   @media (max-width:600px){ footer{flex-direction:column;gap:14px;text-align:center;} }
+
+  /* --- 3D portfolio overlay --- */
+  button.btn{font-family:inherit;cursor:none;}
+  .hero-cta{flex-wrap:wrap;}
+  .btn.world-btn{border-color:var(--accent);}
+  .world{position:fixed;inset:0;z-index:9000;background:#f3d6c8;}
+  .world[hidden]{display:none !important;}
+  #world-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;}
+  .w-top{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:20px 24px;pointer-events:none;color:#3a3550;font-family:'Space Grotesk',sans-serif;}
+  .w-title{font-weight:600;font-size:16px;letter-spacing:.02em;}
+  .w-title span{font-weight:400;opacity:.7;margin-left:8px;}
+  .w-close{pointer-events:auto;background:rgba(255,255,255,.78);border:1px solid rgba(58,53,80,.15);color:#3a3550;border-radius:100px;padding:10px 18px;font:500 13px 'Inter',sans-serif;cursor:none;backdrop-filter:blur(6px);}
+  .w-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#3a3550;font:500 15px 'Inter',sans-serif;background:linear-gradient(#9db8e0,#fbe6cf);text-align:center;padding:24px;}
+  .w-card{position:absolute;left:50%;bottom:90px;transform:translateX(-50%);width:min(420px,calc(100% - 32px));background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-radius:18px;padding:22px 24px;color:#3a3550;box-shadow:0 12px 40px rgba(58,53,80,.18);}
+  .w-card[hidden]{display:none;}
+  .w-card h3{font-size:20px;margin-bottom:8px;}
+  .w-card p{font-size:14px;line-height:1.6;margin-bottom:16px;color:#5a5570;}
+  .w-card .btn{color:#3a3550;border-color:rgba(58,53,80,.3);}
+  .w-hint{position:absolute;bottom:28px;left:0;right:0;text-align:center;color:#3a3550;font:500 13px 'Inter',sans-serif;opacity:.85;pointer-events:none;transition:opacity .8s;padding:0 16px;}
+  .w-joy{display:none;position:absolute;left:28px;bottom:36px;width:110px;height:110px;border-radius:50%;background:rgba(255,255,255,.35);border:1px solid rgba(58,53,80,.2);touch-action:none;}
+  .w-knob{position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.9);box-shadow:0 4px 12px rgba(58,53,80,.2);}
+  @media (hover:none){ .w-joy{display:block;} .w-card{bottom:auto;top:70px;} .w-hint{bottom:160px;} }
+
+  /* --- faq --- */
+  .faq-list{border-top:1px solid var(--line);}
+  .faq-item{padding:30px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:32px;}
+  .faq-item h3{font-size:20px;font-weight:600;}
+  .faq-item p{color:var(--muted);font-size:15px;line-height:1.7;}
+  @media (max-width:800px){ .faq-item{grid-template-columns:1fr;gap:10px;} }
 </style>
 </head>
 <body>
@@ -376,6 +526,7 @@
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#work">Work</a>
+    <a href="#3d" data-open3d>3D World</a>
     <a href="#process">Process</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -395,6 +546,7 @@
     <div class="hero-cta">
       <a href="#contact" class="btn"><span>Start a project</span></a>
       <a href="#services" class="btn ghost"><span>See what I build</span></a>
+      <button type="button" class="btn world-btn" data-open3d id="open3d"><span>Enter 3D Portfolio</span></button>
     </div>
   </div>
 </section>
@@ -508,6 +660,41 @@
   </div>
 </section>
 
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="reveal">Questions, answered</h2>
+      <p class="reveal">Quick facts about Matrix Studios and how to work with it.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <h3>What is Matrix Studios?</h3>
+        <p>Matrix Studios is a full-stack development studio run by Ali Akbar. It designs and builds web products, tools and automation end to end: database, backend, interface and deployment.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>Who is the founder and CEO of Matrix Studios?</h3>
+        <p>Ali Akbar is the founder and CEO of Matrix Studios.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>What services does Matrix Studios offer?</h3>
+        <p>Full-stack web development (React / Next.js with Node or Python backends), tools and automation such as dashboards, integrations and data pipelines, and visual and brand design such as logos.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>What has Matrix Studios built?</h3>
+        <p>DFS — Duty Free Shop, an open online marketplace for Pakistan (dfspk.com), and The Spring School System, a school management workspace (the-spring-school.vercel.app).</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>How can I hire Matrix Studios?</h3>
+        <p>Email matrixstudios27@gmail.com or call +92 302 2607339. Matrix Studios is also on LinkedIn, TikTok and YouTube.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>Can I explore the work in 3D?</h3>
+        <p>Yes. Use the Enter 3D Portfolio button to walk through a calm 3D island with a gate for each project.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact">
   <div class="wrap">
     <div class="contact-inner">
@@ -558,6 +745,22 @@
     <span>© 2026 Matrix Studios</span>
   </div>
 </footer>
+
+<div class="world" id="world" role="dialog" aria-modal="true" aria-label="Matrix Studios 3D portfolio" hidden>
+  <canvas id="world-canvas"></canvas>
+  <div class="w-top">
+    <div class="w-title">Matrix Studios <span>3D Portfolio</span></div>
+    <button type="button" class="w-close" id="w-close" aria-label="Close 3D portfolio">✕ Close</button>
+  </div>
+  <div class="w-loading" id="w-loading">Loading the island…</div>
+  <div class="w-card" id="w-card" hidden>
+    <h3 id="wc-title"></h3>
+    <p id="wc-text"></p>
+    <a id="wc-link" class="btn" href="#"><span id="wc-cta">Open</span></a>
+  </div>
+  <div class="w-hint" id="w-hint">Walk with W A S D or the arrow keys. Step into a glowing gate to open it.</div>
+  <div class="w-joy" id="w-joy"><div class="w-knob" id="w-knob"></div></div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -706,6 +909,338 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches){
   gsap.globalTimeline.timeScale(20);
   document.querySelectorAll('canvas').forEach(c=>c.style.display='none');
 }
+
+/* ================= 3D PORTFOLIO (loads only when opened) ================= */
+(function(){
+const world = document.getElementById('world');
+if(!world) return;
+const $ = id => document.getElementById(id);
+const els = {
+  canvas:$('world-canvas'), close:$('w-close'), loading:$('w-loading'), card:$('w-card'),
+  title:$('wc-title'), text:$('wc-text'), link:$('wc-link'), cta:$('wc-cta'),
+  hint:$('w-hint'), joy:$('w-joy'), knob:$('w-knob')
+};
+
+const SPOTS = [
+  {name:'DFS — Duty Free Shop', text:'An open online marketplace for Pakistan, with listings, chat, city browsing and an admin panel.', href:'https://dfspk.com/', cta:'Visit dfspk.com', color:0xf2a38a, ang:-0.9},
+  {name:'The Spring School System', text:'A campus workspace for schools: role-based sign-in for staff and students, access codes and a dashboard.', href:'https://the-spring-school.vercel.app/', cta:'Open the school system', color:0x9ec9a2, ang:0.35},
+  {name:'About Matrix Studios', text:'Matrix Studios by Ali Akbar is a full-stack development studio building web products, tools and automation end to end.', href:'#about', cta:'Read more', color:0xb7a6e0, ang:1.6},
+  {name:'Contact', text:'Have a build in mind? Email matrixstudios27@gmail.com or call +92 302 2607339.', href:'mailto:matrixstudios27@gmail.com', cta:'Send an email', color:0xf0d27a, ang:2.9}
+];
+
+let started=false, running=false, raf=0, lastFocus=null;
+let renderer, scene, camera, clock, tickFn;
+
+function loadThree(){
+  return new Promise((res,rej)=>{
+    if(window.THREE) return res();
+    const s=document.createElement('script');
+    s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+    s.onload=res; s.onerror=rej; document.head.appendChild(s);
+  });
+}
+
+function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+
+function build(){
+  const THREE = window.THREE;
+  try{
+    renderer = new THREE.WebGLRenderer({canvas:els.canvas, antialias:true});
+  }catch(e){
+    els.loading.style.display='flex';
+    els.loading.textContent='Your browser could not start 3D. The normal portfolio is just behind this screen: press Close.';
+    return false;
+  }
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+  scene = new THREE.Scene();
+
+  // soft sunset sky
+  const sk=document.createElement('canvas'); sk.width=2; sk.height=256;
+  const sx=sk.getContext('2d'); const gr=sx.createLinearGradient(0,0,0,256);
+  gr.addColorStop(0,'#9db8e0'); gr.addColorStop(0.55,'#f3cfc6'); gr.addColorStop(1,'#fbe6cf');
+  sx.fillStyle=gr; sx.fillRect(0,0,2,256);
+  scene.background = new THREE.CanvasTexture(sk);
+  scene.fog = new THREE.Fog(0xf7dccb, 45, 140);
+
+  camera = new THREE.PerspectiveCamera(50,1,0.1,400);
+  camera.position.set(0,45,60);
+
+  scene.add(new THREE.HemisphereLight(0xfff1e0,0x9fc3c9,0.95));
+  const sun=new THREE.DirectionalLight(0xffd9b0,0.8); sun.position.set(-30,25,-20); scene.add(sun);
+
+  const rng=mulberry(7);
+  const lam=(c)=>new THREE.MeshLambertMaterial({color:c,flatShading:true});
+
+  // calm water
+  const wg=new THREE.PlaneGeometry(360,360,72,72); wg.rotateX(-Math.PI/2);
+  const water=new THREE.Mesh(wg,new THREE.MeshPhongMaterial({color:0x86c9cc,flatShading:true,shininess:60,transparent:true,opacity:0.93}));
+  water.position.y=-0.6; scene.add(water);
+  const wp=wg.attributes.position;
+
+  // island
+  const sand=new THREE.Mesh(new THREE.CylinderGeometry(25,27,1.6,40),lam(0xf0dcb4)); sand.position.y=-1.0; scene.add(sand);
+  const grass=new THREE.Mesh(new THREE.CylinderGeometry(22,23.5,1.2,40),lam(0xb5d99c)); grass.position.y=-0.6; scene.add(grass);
+  const path=new THREE.Mesh(new THREE.RingGeometry(11.5,14.5,64),new THREE.MeshLambertMaterial({color:0xe9dcc0})); path.rotation.x=-Math.PI/2; path.position.y=0.03; scene.add(path);
+  const plaza=new THREE.Mesh(new THREE.CircleGeometry(5,40),new THREE.MeshLambertMaterial({color:0xe9dcc0})); plaza.rotation.x=-Math.PI/2; plaza.position.y=0.03; scene.add(plaza);
+
+  // gates (one per project)
+  const gates=[];
+  function label(text){
+    const c=document.createElement('canvas'); c.width=512; c.height=128;
+    const x=c.getContext('2d');
+    x.fillStyle='rgba(255,255,255,0.88)';
+    const r=40; x.beginPath(); x.moveTo(r,8); x.lineTo(512-r,8); x.quadraticCurveTo(504,8,504,r); x.lineTo(504,128-r); x.quadraticCurveTo(504,120,512-r,120); x.lineTo(r,120); x.quadraticCurveTo(8,120,8,128-r); x.lineTo(8,r); x.quadraticCurveTo(8,8,r,8); x.fill();
+    let fs=44; x.font='600 '+fs+'px Inter, sans-serif';
+    while(x.measureText(text).width>440 && fs>18){fs-=2; x.font='600 '+fs+'px Inter, sans-serif';}
+    x.fillStyle='#3a3550'; x.textAlign='center'; x.textBaseline='middle'; x.fillText(text,256,66);
+    const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthWrite:false}));
+    sp.scale.set(9,2.25,1); return sp;
+  }
+  SPOTS.forEach((s,i)=>{
+    const g=new THREE.Group(); const m=lam(s.color);
+    const p1=new THREE.Mesh(new THREE.BoxGeometry(0.7,6,0.7),m); p1.position.set(-2.6,3,0);
+    const p2=p1.clone(); p2.position.x=2.6;
+    const b1=new THREE.Mesh(new THREE.BoxGeometry(7.6,0.7,0.8),m); b1.position.y=6.1;
+    const b2=new THREE.Mesh(new THREE.BoxGeometry(6,0.45,0.6),m); b2.position.y=5.0;
+    const orb=new THREE.Mesh(new THREE.SphereGeometry(0.7,16,12),new THREE.MeshBasicMaterial({color:0xfff2cf})); orb.position.y=3;
+    const ring=new THREE.Mesh(new THREE.RingGeometry(3.2,3.7,40),new THREE.MeshBasicMaterial({color:s.color,transparent:true,opacity:0.5,side:THREE.DoubleSide}));
+    ring.rotation.x=-Math.PI/2; ring.position.y=0.06;
+    g.add(p1,p2,b1,b2,orb,ring);
+    const x=Math.cos(s.ang)*13, z=Math.sin(s.ang)*13;
+    g.position.set(x,0,z); g.rotation.y=Math.PI/2-s.ang; scene.add(g);
+    const lb=label(s.name); lb.position.set(x,8.8,z); scene.add(lb);
+    gates.push({spot:s,x,z,orb,ring,i});
+  });
+
+  // trees, rocks, flowers
+  function farFromGates(x,z,d){return gates.every(g=>Math.hypot(x-g.x,z-g.z)>d);}
+  function tree(x,z,sc,blossom){
+    const t=new THREE.Group();
+    const trunk=new THREE.Mesh(new THREE.CylinderGeometry(0.25,0.35,2.2,6),lam(0x8d6b52)); trunk.position.y=1.1; t.add(trunk);
+    if(blossom){
+      const c=new THREE.Mesh(new THREE.IcosahedronGeometry(1.9,0),lam(0xf4b8c8)); c.position.y=3.4; t.add(c);
+      const c2=new THREE.Mesh(new THREE.IcosahedronGeometry(1.3,0),lam(0xf8cfd9)); c2.position.set(0.9,4.2,0.3); t.add(c2);
+    }else{
+      const a=new THREE.Mesh(new THREE.ConeGeometry(1.8,3,7),lam(0x7fb98d)); a.position.y=3.3; t.add(a);
+      const b=new THREE.Mesh(new THREE.ConeGeometry(1.3,2.4,7),lam(0x92c89c)); b.position.y=4.8; t.add(b);
+    }
+    t.scale.setScalar(sc); t.position.set(x,0,z); t.rotation.y=rng()*6; scene.add(t);
+  }
+  let placed=0, tries=0;
+  while(placed<34 && tries<400){
+    tries++;
+    const a=rng()*Math.PI*2, r=7+rng()*14.5, x=Math.cos(a)*r, z=Math.sin(a)*r;
+    if(Math.hypot(x,z)<6.5 || !farFromGates(x,z,6)) continue;
+    if(Math.abs(Math.hypot(x,z)-13)<2.4) continue; // keep the path clear
+    tree(x,z,0.8+rng()*0.6,rng()<0.45); placed++;
+  }
+  for(let i=0;i<9;i++){
+    const a=rng()*Math.PI*2, r=8+rng()*13, x=Math.cos(a)*r, z=Math.sin(a)*r;
+    if(!farFromGates(x,z,5)) continue;
+    const rk=new THREE.Mesh(new THREE.DodecahedronGeometry(0.5+rng()*0.7,0),lam(0xc9c4cf)); rk.position.set(x,0.3,z); rk.rotation.set(rng()*3,rng()*3,rng()*3); scene.add(rk);
+  }
+  (function flowers(){
+    const n=220, pos=new Float32Array(n*3), col=new Float32Array(n*3), cols=[0xfff3a0,0xffffff,0xf7b6cf,0xd6c4f2].map(c=>new THREE.Color(c));
+    for(let i=0;i<n;i++){
+      const a=rng()*Math.PI*2, r=Math.sqrt(rng())*21.5;
+      pos[i*3]=Math.cos(a)*r; pos[i*3+1]=0.18; pos[i*3+2]=Math.sin(a)*r;
+      const c=cols[Math.floor(rng()*cols.length)]; col[i*3]=c.r; col[i*3+1]=c.g; col[i*3+2]=c.b;
+    }
+    const g=new THREE.BufferGeometry(); g.setAttribute('position',new THREE.BufferAttribute(pos,3)); g.setAttribute('color',new THREE.BufferAttribute(col,3));
+    scene.add(new THREE.Points(g,new THREE.PointsMaterial({size:0.4,vertexColors:true})));
+  })();
+
+  // far islets for depth
+  for(let i=0;i<6;i++){
+    const a=rng()*Math.PI*2, r=62+rng()*40, s=4+rng()*4;
+    const g=new THREE.Group();
+    const base=new THREE.Mesh(new THREE.CylinderGeometry(s,s+1.2,1.4,12),lam(0xf0dcb4)); base.position.y=-0.9; g.add(base);
+    const top=new THREE.Mesh(new THREE.CylinderGeometry(s-0.8,s,1,12),lam(0xb5d99c)); top.position.y=-0.3; g.add(top);
+    const cone=new THREE.Mesh(new THREE.ConeGeometry(1.6,3.4,7),lam(0x7fb98d)); cone.position.y=2; g.add(cone);
+    g.position.set(Math.cos(a)*r,0,Math.sin(a)*r); scene.add(g);
+  }
+
+  // clouds
+  const clouds=[];
+  for(let i=0;i<9;i++){
+    const g=new THREE.Group(); const mat=new THREE.MeshLambertMaterial({color:0xffffff,flatShading:true,transparent:true,opacity:0.92});
+    for(let j=0;j<5;j++){
+      const sp=new THREE.Mesh(new THREE.IcosahedronGeometry(3+rng()*3,0),mat);
+      sp.position.set(j*4.2-8,rng()*2,rng()*3); sp.scale.y=0.6; g.add(sp);
+    }
+    g.position.set((rng()-0.5)*260,28+rng()*14,-30-rng()*110); scene.add(g); clouds.push(g);
+  }
+
+  // floating lanterns
+  const lanterns=[];
+  for(let i=0;i<16;i++){
+    const l=new THREE.Mesh(new THREE.CylinderGeometry(0.45,0.55,0.9,8),new THREE.MeshBasicMaterial({color:0xffc98a}));
+    const a=rng()*Math.PI*2, r=8+rng()*40;
+    l.position.set(Math.cos(a)*r,3+rng()*30,Math.sin(a)*r); l.userData={s:0.6+rng()*0.8,p:rng()*6}; scene.add(l); lanterns.push(l);
+  }
+
+  // fireflies
+  const FN=70, fb=new Float32Array(FN*3), fp=new Float32Array(FN*3);
+  for(let i=0;i<FN;i++){
+    const a=rng()*Math.PI*2, r=Math.sqrt(rng())*21;
+    fb[i*3]=Math.cos(a)*r; fb[i*3+1]=0.8+rng()*2.6; fb[i*3+2]=Math.sin(a)*r;
+  }
+  fp.set(fb);
+  const fg=new THREE.BufferGeometry(); fg.setAttribute('position',new THREE.BufferAttribute(fp,3));
+  scene.add(new THREE.Points(fg,new THREE.PointsMaterial({size:0.38,color:0xffe9a8,transparent:true,opacity:0.9,blending:THREE.AdditiveBlending,depthWrite:false})));
+
+  // the wanderer
+  const player=new THREE.Group(), bod=new THREE.Group(); player.add(bod);
+  const cloak=new THREE.Mesh(new THREE.CylinderGeometry(0.45,0.8,1.5,10),lam(0xf6efe4)); cloak.position.y=0.75; bod.add(cloak);
+  const head=new THREE.Mesh(new THREE.SphereGeometry(0.46,14,10),new THREE.MeshLambertMaterial({color:0xf2cdb0})); head.position.y=1.75; bod.add(head);
+  const hat=new THREE.Mesh(new THREE.ConeGeometry(0.95,0.5,14),lam(0xe9806e)); hat.position.y=2.2; bod.add(hat);
+  const lantern=new THREE.Mesh(new THREE.SphereGeometry(0.22,10,8),new THREE.MeshBasicMaterial({color:0xffd58a})); lantern.position.set(0.75,1.0,0.35); bod.add(lantern);
+  const glow=new THREE.PointLight(0xffc98a,0.7,9); glow.position.copy(lantern.position); bod.add(glow);
+  const shadow=new THREE.Mesh(new THREE.CircleGeometry(0.9,16),new THREE.MeshBasicMaterial({color:0x000000,transparent:true,opacity:0.16})); shadow.rotation.x=-Math.PI/2; shadow.position.y=0.05; player.add(shadow);
+  player.position.set(0,0,5); scene.add(player);
+
+  // input
+  const keys={}; let jx=0, jz=0, moved=false;
+  window.addEventListener('keydown',e=>{
+    if(world.hidden) return;
+    const k=e.key.toLowerCase();
+    if(k==='escape'){closeWorld();return;}
+    keys[k]=true;
+    if(k.indexOf('arrow')===0||k===' ') e.preventDefault();
+  });
+  window.addEventListener('keyup',e=>{keys[e.key.toLowerCase()]=false;});
+  function joy(e){
+    const r=els.joy.getBoundingClientRect();
+    let dx=(e.clientX-(r.left+r.width/2))/(r.width/2), dy=(e.clientY-(r.top+r.height/2))/(r.height/2);
+    const l=Math.hypot(dx,dy); if(l>1){dx/=l;dy/=l;}
+    jx=dx; jz=dy; els.knob.style.transform='translate('+(dx*30)+'px,'+(dy*30)+'px)';
+  }
+  els.joy.addEventListener('pointerdown',e=>{els.joy.setPointerCapture(e.pointerId);joy(e);});
+  els.joy.addEventListener('pointermove',e=>{if(els.joy.hasPointerCapture(e.pointerId))joy(e);});
+  const joyEnd=()=>{jx=0;jz=0;els.knob.style.transform='';};
+  els.joy.addEventListener('pointerup',joyEnd); els.joy.addEventListener('pointercancel',joyEnd);
+
+  // loop
+  clock=new THREE.Clock();
+  const vel={x:0,z:0}, look=new THREE.Vector3(0,1.5,5), want=new THREE.Vector3();
+  let current=null;
+  tickFn=function(){
+    const dt=Math.min(clock.getDelta(),0.05), t=clock.elapsedTime;
+    let ix=((keys['d']||keys['arrowright'])?1:0)-((keys['a']||keys['arrowleft'])?1:0)+jx;
+    let iz=((keys['s']||keys['arrowdown'])?1:0)-((keys['w']||keys['arrowup'])?1:0)+jz;
+    const il=Math.hypot(ix,iz); if(il>1){ix/=il;iz/=il;}
+    const k=Math.min(1,dt*6);
+    vel.x+=(ix*9-vel.x)*k; vel.z+=(iz*9-vel.z)*k;
+    player.position.x+=vel.x*dt; player.position.z+=vel.z*dt;
+    const d=Math.hypot(player.position.x,player.position.z);
+    if(d>20.5){player.position.x*=20.5/d; player.position.z*=20.5/d;}
+    const sp=Math.hypot(vel.x,vel.z);
+    if(sp>0.3){
+      if(!moved){moved=true; els.hint.style.opacity=0;}
+      let diff=Math.atan2(vel.x,vel.z)-player.rotation.y; diff=Math.atan2(Math.sin(diff),Math.cos(diff));
+      player.rotation.y+=diff*Math.min(1,dt*10);
+    }
+    bod.position.y=Math.abs(Math.sin(t*9))*0.08*Math.min(1,sp/4);
+
+    want.set(player.position.x,13,player.position.z+16);
+    camera.position.lerp(want,1-Math.exp(-dt*2.5));
+    look.lerp(new THREE.Vector3(player.position.x,1.5,player.position.z),1-Math.exp(-dt*5));
+    camera.lookAt(look);
+
+    // gates
+    let near=null;
+    gates.forEach(g=>{
+      const dd=Math.hypot(player.position.x-g.x,player.position.z-g.z);
+      const isNear=dd<4.6; if(isNear) near=g;
+      g.orb.scale.setScalar(1+Math.sin(t*2+g.i)*0.08+(isNear?0.3:0));
+      g.ring.material.opacity=isNear?0.9:0.45+Math.sin(t*1.5+g.i)*0.08;
+    });
+    if(near!==current){current=near; showCard(near);}
+
+    // ambient motion
+    for(let i=0;i<wp.count;i++){
+      const x=wp.getX(i), z=wp.getZ(i);
+      wp.setY(i,Math.sin(x*0.15+t)*0.22+Math.cos(z*0.12+t*0.8)*0.18);
+    }
+    wp.needsUpdate=true;
+    clouds.forEach(c=>{c.position.x+=dt*0.8; if(c.position.x>140)c.position.x=-140;});
+    lanterns.forEach(l=>{
+      l.position.y+=dt*l.userData.s; l.position.x+=Math.sin(t*0.5+l.userData.p)*dt*0.5;
+      if(l.position.y>38) l.position.y=3;
+    });
+    for(let i=0;i<FN;i++){
+      fp[i*3]=fb[i*3]+Math.sin(t*0.6+i)*0.7;
+      fp[i*3+1]=fb[i*3+1]+Math.sin(t*1.1+i*1.7)*0.4;
+      fp[i*3+2]=fb[i*3+2]+Math.cos(t*0.5+i)*0.7;
+    }
+    fg.attributes.position.needsUpdate=true;
+
+    renderer.render(scene,camera);
+    raf=requestAnimationFrame(tickFn);
+  };
+  return true;
+}
+
+function showCard(g){
+  if(!g){els.card.hidden=true;return;}
+  const s=g.spot;
+  els.title.textContent=s.name; els.text.textContent=s.text; els.cta.textContent=s.cta;
+  els.link.href=s.href;
+  if(/^https?:/.test(s.href)){els.link.target='_blank'; els.link.rel='noopener';}
+  else{els.link.removeAttribute('target'); els.link.removeAttribute('rel');}
+  els.card.hidden=false;
+}
+
+function resize(){
+  if(!renderer) return;
+  const w=world.clientWidth, h=world.clientHeight;
+  renderer.setSize(w,h,false);
+  camera.aspect=w/h; camera.fov=(w/h<0.8)?68:50; camera.updateProjectionMatrix();
+}
+window.addEventListener('resize',resize);
+
+function start(){
+  if(running||!tickFn) return;
+  running=true; resize(); clock.getDelta(); tickFn();
+}
+function stop(){running=false; cancelAnimationFrame(raf);}
+
+function openWorld(){
+  lastFocus=document.activeElement;
+  world.hidden=false; document.body.style.overflow='hidden';
+  if(location.hash!=='#3d') history.replaceState(null,'','#3d');
+  els.close.focus();
+  if(started){start();return;}
+  started=true; els.loading.style.display='flex'; els.loading.textContent='Loading the island…';
+  loadThree().then(()=>{
+    if(build()){els.loading.style.display='none'; start();}
+  }).catch(()=>{
+    els.loading.textContent='Could not load the 3D scene. Check your connection and try again.';
+    started=false;
+  });
+}
+function closeWorld(){
+  stop(); world.hidden=true; document.body.style.overflow='';
+  if(location.hash==='#3d') history.replaceState(null,'',location.pathname+location.search);
+  if(lastFocus&&lastFocus.focus) lastFocus.focus();
+}
+
+els.close.addEventListener('click',closeWorld);
+els.link.addEventListener('click',e=>{
+  const h=els.link.getAttribute('href');
+  if(h&&h.charAt(0)==='#'&&h.length>1){
+    e.preventDefault(); closeWorld();
+    const t=document.querySelector(h); if(t) t.scrollIntoView({behavior:'smooth'});
+  }
+});
+document.querySelectorAll('[data-open3d]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();openWorld();}));
+const ring=document.getElementById('cring');
+if(ring){[els.close,els.link].forEach(el=>{
+  el.addEventListener('mouseenter',()=>ring.classList.add('hovered'));
+  el.addEventListener('mouseleave',()=>ring.classList.remove('hovered'));
+});}
+if(location.hash==='#3d') window.addEventListener('load',openWorld);
+})();
 </script>
 </body>
 </html>
