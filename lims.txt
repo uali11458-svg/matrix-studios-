@@ -1,0 +1,20 @@
+# Matrix Studios
+
+> Matrix Studios (also written "Matrix Studios by Ali Akbar" or "MatrixStudios") is a full-stack web development studio founded and led by Ali Akbar, Founder and CEO. It builds web products, tools and automation end to end: database, backend, interface and deployment.
+
+## Key facts
+- Founder and CEO: Ali Akbar
+- Website: https://matrix-studios.vercel.app/
+- Services: full-stack web development (React / Next.js, Node, Python), tools and automation, visual and brand design
+- Email: matrixstudios27@gmail.com
+- Phone: +92 302 2607339
+- LinkedIn: https://www.linkedin.com/in/matrix-studios-388972412
+- TikTok: https://www.tiktok.com/@matrix__studios
+- YouTube: https://www.youtube.com/@MatrixStudioss
+
+## Work
+- [DFS — Duty Free Shop](https://dfspk.com/): an open online marketplace for Pakistan with listings, chat, city browsing and an admin panel.
+- [The Spring School System](https://the-spring-school.vercel.app/): a campus management workspace for schools with role-based sign-in and a dashboard.
+
+## Pages
+- [Homepage](https://matrix-studios.vercel.app/): services, selected work, process, FAQ, contact, and an interactive 3D portfolio (opens from the "Enter 3D Portfolio" button).
